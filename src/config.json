@@ -1,0 +1,13 @@
+{
+  "port": 3000,
+  "type": {
+    "tit": 2,
+    "hip": 6,
+    "silk": 7,
+    "leg": 3,
+    "face": 4,
+    "other": 5
+  },
+  "baseUrl": "https://www.dbmeinv.com/dbgroup/show.htm",
+  "timeout": 15000
+}
