@@ -26,6 +26,6 @@ const handleRequest = async (req, res) => {
   }
 };
 
-app.get('/imgs', (req, res) => {
+app.get('/', (req, res) => {
   handleRequest(req, res);
 });
