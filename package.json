@@ -4,7 +4,8 @@
   "description": "crawler for imgs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
   },
   "keywords": [
     "crawler",
@@ -15,6 +16,6 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.4",
-    "superagent": "^3.6.0",
+    "superagent": "^3.6.0"
   }
 }

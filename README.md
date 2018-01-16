@@ -1,15 +1,43 @@
 # imgs
+
 Image crawler by Node.js.
 
 Have a try click [here](https://blackmatch.cn/api/imgs/).
 
-# API
+## Usage
 
-## Request
-basic url: `https://blackmatch.cn/api/imgs`  
-available: `tit`、`hip`、`silk`、`leg`、`face`、`other`
-### examples
-https://blackmatch.cn/api/imgs?page=3  
+* clone this repo.
+
+* `npm install`
+
+* `npm start`
+
+## Docker
+
+* build
+
+```js
+docker build -t <image name> .
+```
+
+* run
+
+```js
+docker run -p 3000:3000 -d imgs
+```
+
+* test
+
+Now you can visit [http://localhost:3000](http://localhost:3000) to check it.
+
+## Examples
+
+basic url: `https://blackmatch.cn/api/imgs`
+
+available types: `tit`、`hip`、`silk`、`leg`、`face`、`other`
+
+https://blackmatch.cn/api/imgs?page=3
+
 https://blackmatch.cn/api/imgs?type=tit&page=3
 
 ## Response
