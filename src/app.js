@@ -1,9 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 
 const config = require('./config');
 const CrawlerClass = require('./crawler');
 const crawler = new CrawlerClass();
 const app = new express();
+
+// cors
+app.use(cors());
 
 // 设置请求头
 // application/json  接口返回json数据
